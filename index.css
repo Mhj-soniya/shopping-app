@@ -3,6 +3,7 @@
     padding: 0;
     max-width: 2000px;
     box-sizing: border-box;
+    font-family: 'Poppins';
 }
 
 header {
@@ -55,8 +56,8 @@ button {
 .navbar a {
     text-decoration: none;
     color: #333;
-    font-weight: bold;
-    font-size: 14px;
+    font-weight: 500;
+    font-size: 22px;
     padding: 5px 10px;
 }
 
@@ -75,7 +76,7 @@ button {
     height: 852px;
     border-radius: 60px;
     display: flex;
-    position: relative;
+    /* position: relative; */
 }
 
 .hero-text {
@@ -103,9 +104,10 @@ button {
 }
 
 .hero-image {
-    position: absolute;
+    /* position: absolute; */
     height: 784px;
     margin-top: 76px;
+    margin-left: 1000px;
     right: 10px;
     display: block;
 }
