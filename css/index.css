@@ -84,12 +84,13 @@ button {
     height: 852px;
     border-radius: 59px;
     display: flex;
-    position: relative;
+    justify-content: space-between;
+    gap: 40px;
 }
 
 .hero-text {
-    position: absolute;
     margin: 50px 0 0 50px;
+    width: auto;
 }
 
 .hero-text h1{
@@ -115,12 +116,14 @@ button {
 }
 
 .hero-image {
-    position: absolute;
-    height: 784px;
-    max-width: 784px;
-    margin-top: 76px;
-    margin-left: 800px;
-    display: block;
+    margin-top: 70px;
+    width: "871px";
+    height: "784px";
+}
+
+.hero-image img{
+    object-fit: cover;
+    width: 100%;
 }
 
 .hero-text .rectangle {
@@ -173,8 +176,8 @@ button {
 
 .new-arrival {
     display: flex;
-    justify-content: center;
-    gap: 100px;
+    justify-content: space-between;
+    gap: 90px;
     margin-left: 50px;
     margin-top: 100px;
 }
@@ -186,6 +189,17 @@ button {
 .new-arrival p{
     font-size: 20px;
     color: gray;
+}
+
+.new-arrival .card {
+    height: "805px";
+    width: "484px";
+}
+
+.new-arrival .card .img {
+    height: "704px";
+    width: 100%;
+    object-fit: cover;
 }
 
 .payday {
