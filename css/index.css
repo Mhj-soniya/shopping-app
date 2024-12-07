@@ -230,44 +230,49 @@ button {
 .payday {
     display: flex;
     justify-content: space-between;
-    gap: 139px;
+    /* gap: 139px; */
     margin-top: 100px;
     background-color: #E6C744;
-    height: 900px;
+    height: 730px;
     /* position: relative; */
     margin-bottom: 50px;
 }
 
 .payday-image {
-    width: 820px;
-    height: 600px;
-    margin-top: 15px;
-    margin-left: 99px;
+    margin: 53px 56px 0 0;
+    width: 95%;
+    height: 93%;
 }
 
-.payday-image img {
+.payday-image img{
     object-fit: contain;
-    width: auto;
+    width: 100%;
+    height: 100%
 }
 
 .payday-text {
     /* position: absolute; */
     /* right: 300px; */
-    margin-top: 100px;
+    margin-top: 60px;
+    width: 100%;
     /* max-width: 600px; */
     font: bold;
 }
 
 .payday-text h1 {
-    font-size: 96px;
-    line-height: 137px;
+    font-size: 90px;
+    line-height: 95px;
     text-transform: uppercase;
 }
 
+#sale {
+    margin-left: 20px;
+}
+
 .payday-text .rectangle {
-    width: 464px;
-    height: 121px;
-    /* padding: 10px 10px; */
+    width: 384px;
+    height: 100px;
+    padding: 20px 20px 0 20px;
     position: relative;
     display: inline-block;
     background-color: white;
@@ -278,8 +283,8 @@ button {
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 137px;
-    height: 20px;
+    bottom: 107px;
+    height: 30px;
     background-color: #E6C744;
     transform: skewY(-2deg);
 }
@@ -289,16 +294,17 @@ button {
     position: absolute;
     left: 0;
     right: 0;
-    bottom: -13px;
-    height: 20px;
+    bottom: -8px;
+    height: 15px;
     background-color: #E6C744;
     transform: skewY(-2deg);
 }
 
 .payday-text p{
-    margin: 30px 0px 30px 50px;
-    font-size: 35px;
+    margin: 50px 0px 30px 70px;
+    font-size: 28px;
     font-weight: 500;
+    max-width: 500px;
 }
 
 .payday-text p:nth-of-type(1) {
@@ -307,18 +313,19 @@ button {
 
 
 .payday-text p:nth-of-type(2) {
-    margin: 30px 0px 0px 50px;
-    font-weight: 900;
+    margin: 30px 0px 0px 70px;
+    font-weight: 700;
 }
 
 .payday-text p:nth-of-type(3) {
-    margin: 0px 0px 30px 50px;
-    font-size: 35px;
+    margin: 0px 0px 30px 70px;
     font-weight: 500;
 }
 
 .payday-text button {
-    margin: 0 0 0 50px;
+    margin: 0 0 0 70px;
+    padding: 15px 30px;
+    text-transform: uppercase;
 }
 
 .youngs-favourite {
