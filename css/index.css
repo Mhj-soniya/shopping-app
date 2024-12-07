@@ -109,7 +109,7 @@ button {
     font-size: 70px;
     font-weight: 900;
     max-width: 474px;
-    line-height: 60px;
+    line-height: 75px;
     text-transform: uppercase;
 }
 
@@ -117,14 +117,19 @@ button {
     font-size: 24px;
     font-weight: 400;
     margin-top: 40px;
-    margin-left: 50px;
+    margin-left: 70px;
+}
+
+.hero-text .move-left{
+    margin-left: 15px;
 }
 
 .hero-text button {
-    font-size: 20px;
+    font-size: 24px;
+    font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
-    margin-left: 50px;
+    margin-left: 70px;
 }
 
 .hero-image {
@@ -141,8 +146,8 @@ button {
 
 .hero-text .rectangle {
     width: 310px;
-    height: 90px;
-    padding: 20px 10px 0 10px;
+    height: 80px;
+    padding: 20px 8px 0 15px;
     position: relative;
     display: inline-block;
 }
@@ -152,8 +157,8 @@ button {
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 92px;
-    height: 25px;
+    bottom: 90px;
+    height: 18px;
     background-color: #F3F6F3;
     transform: skewY(-2deg);
 }
@@ -163,8 +168,8 @@ button {
     position: absolute;
     left: 0;
     right: 0;
-    bottom: -8px;
-    height: 15px;
+    bottom: -6px;
+    height: 14px;
     background-color: #F3F6F3;
     transform: skewY(-2deg);
 }
@@ -174,7 +179,7 @@ button {
     background-color: white;
 }
 
-.hero-text .rectangle:nth-of-type(2) {
+.hero-text .rectangle:nth-of-type(3) {
     background-color: #E6C744;
 }
 
