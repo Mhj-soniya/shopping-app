@@ -455,7 +455,7 @@ button {
     color: white;
     display: flex;
     justify-content: space-between;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     padding: 50px 100px;
     gap: 30px; 
 }
@@ -608,7 +608,7 @@ button {
     }
 
     .payday-image {
-        margin: 17px 14px 0 0;
+        margin: 15px 0 0 0;
         width: 95%;
         height: 95%;
     }
@@ -663,5 +663,37 @@ button {
         margin: 0 0 0 10px;
         font-size: 11px;
         padding: 9px 12px;
+    }
+
+    /* footer section */
+    .site-footer {
+        padding: 39px 36px;
+        gap: 30px; 
+    }
+    
+    .footer-branding h2 {
+        font-size: 30px;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+    }
+    
+    .footer-branding p {
+        font-size: 13px;
+        margin-bottom: 20px;
+        max-width: 400px;
+    }
+    
+    .social-media {
+        gap: 10px;
+        width: 49% ;
+        height: 26% ;
+    }
+    
+    .footer-links {
+        flex: 0;
+    }
+
+    .link-group a{
+        font-size: 15px;
     }
 }
