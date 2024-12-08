@@ -382,31 +382,33 @@ button {
     align-items: center;
     justify-content: center;
     background-color: #E6C744;
-    height: 623px;
+    height: 450px;
+    margin-top: 70px;
 }
 
 .community p{
     color: white;
-    font-size: 50px;
+    font-size: 45px;
 }
 
 .community p:nth-of-type(1) {
-    margin: 0 0 40px 0;
     font-weight: 900;
+    line-height: 1.2;
     text-align: center;
     text-transform: uppercase;
+    margin-top: -10px;
+    letter-spacing: 1px;
 }
 
 .community p:nth-of-type(2) {
-    margin: 0 0 40px 0;
-    font-size: 40px;
-    font-weight: 100;
-    max-width: 1000px;
+    margin: -20px 0 26px 0;
+    font-size: 25px;
+    font-weight: 400;
 }
 
 .input-group {
     display: flex;
-    width: 500px;
+    width: 420px;
     background-color: white;
     border-radius: 10px;
     position: relative;
@@ -414,22 +416,22 @@ button {
 
 .input-group input{
     margin: 0 10px;
-    font-size: 30px;
+    font-size: 20px;
     border: none;
-    padding: 20px 10px;
+    padding: 13px 13px;
 }
 
 
 .input-group button {
     position: absolute;
     right: 10px;
-    transform: translateY(15%);
-    padding: 10px 20px;
+    transform: translateY(20%);
+    padding: 5px 25px;
     background-color: black;
     color: white;
     border: none;
     border-radius: 7px;
-    font-size: 30px;
+    font-size: 20px;
     cursor: pointer;
 }
 
