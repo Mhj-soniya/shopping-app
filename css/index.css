@@ -90,8 +90,9 @@ button {
 .hamburger {
     display: none;
     cursor: pointer;
-    width: 30px;
+    width: 22px;
     height: 20px;
+    right: -91px;
     position: relative;
     z-index: 100;
 }
@@ -576,10 +577,16 @@ button {
     }
 
     header {
+        padding: 20px 0 10px 50px;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Horizontal, Vertical, Blur, Spread, and Color */
     }
 
     /* header section */
+    .logo img{
+        width: 150px;
+        margin-left: -15px;
+    }
+
     .hamburger {
         display: block;
     }
@@ -589,7 +596,7 @@ button {
         position: fixed;
         top: 0;
         right: 0;
-        width: 82%;
+        width: 88%;
         height: 100%;
         background-color: white;
         flex-direction: column;
@@ -600,23 +607,21 @@ button {
     /* style after menu opens */
     .navbar.active {
         display: flex;
-        padding-right: 50px;  
-        align-items: flex-end; 
-        justify-content: flex-start;  
-        padding-top: 100px;  
+        padding-right: 12px;
+        align-items: flex-end;
+        justify-content: flex-start;
+        padding-top: 42px;
+        margin-top: 68px;
+    }
+
+    .navbar button {
+        padding: 13px 139px;
+        text-transform: capitalize;
     }
 
     .navbar li {
         width: 100%; 
         text-align: left;  
-
-        .navbar.active {
-            display: flex;
-        }
-
-        .logo img {
-            width: 180px;
-        }
     }
 
     /* hero section */
