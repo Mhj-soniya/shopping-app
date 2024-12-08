@@ -249,14 +249,16 @@ button {
     gap: 20px;
 }
 
-.new-arrival h4{
-    font-size: 30px;
-    font-weight: 500;
+.new-arrival p {
+    font-size: 24px;
+    color: #C2C8DA;
+    margin-top: -40px;
 }
 
-.new-arrival p{
-    font-size: 20px;
-    color: gray;
+.new-arrival h4 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 25px;
 }
 
 .new-arrival .card {
@@ -269,7 +271,7 @@ button {
 .payday {
     display: flex;
     justify-content: space-between;
-    margin-top: 100px;
+    margin-top: 120px;
     background-color: #E6C744;
     height: 730px;
     margin-bottom: 50px;
@@ -298,7 +300,7 @@ button {
 }
 
 .payday-text .rectangle {
-    width: 384px;
+    width: 405px;
     height: 100px;
     padding: 20px 20px 0 20px;
     position: relative;
@@ -361,16 +363,25 @@ button {
     justify-content: space-between;
     gap: 27px;
     margin-top: 50px;
-    margin-left: 50px;
 }
 
-.youngs-favourite h4{
-    font-size: 30px;
+.wrapper h1 {
+    margin: 130px 0 70px 0;
+    font-size: 40px;
+    letter-spacing: 2px;
 }
 
-.youngs-favourite p{
+.youngs-favourite h4 {
+    font-size: 26px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.youngs-favourite p {
     font-size: 20px;
-    color: gray;
+    color: #C2C8DA;
+    font-weight: 500;
+    margin-top: -34px;
 }
 
 .youngs-favourite .card{
@@ -380,6 +391,7 @@ button {
 
 /* download section */
 .download {
+    margin-top: 80px;
     height: 650px;
     display: flex;
     justify-content: space-between;
@@ -407,7 +419,7 @@ button {
 .download-text p{
     font-size: 20px;
     font-weight: 500;
-    color: gray;
+    color: #C2C8DA;
     margin-bottom: 40px;
 }
 
@@ -488,10 +500,10 @@ button {
 
 .arrow {
     position: absolute;
-    right: 12px;
+    right: 5px;
     top: 50%;
-    width: 5%;
-    height: 10%;
+    width: 10%;
+    height: 23%;
     transform: translateY(-50%);
 }
 
@@ -725,7 +737,7 @@ button {
 
     .new-arrival p {
         font-size: 14px;
-        color: gray;
+        color: #C2C8DA;
         margin-top: -22px;
     }
 
@@ -830,7 +842,7 @@ button {
 
     .wrapper h1{
         font-size: 21px;
-        margin-left: 0px;
+        margin: 0 0 20px 0;
     }
 
     .youngs-favourite h4 {
@@ -841,7 +853,7 @@ button {
     .youngs-favourite p {
         font-size: 14px;
         font-weight: 500;
-        color: gray;
+        color: #C2C8DA;
         margin-top: -22px;
     }
 
