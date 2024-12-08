@@ -26,6 +26,12 @@ h2{
     text-transform: uppercase;
 }
 
+img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
 /* css for navbar */
 nav {
     display: flex;
@@ -129,12 +135,6 @@ button {
     height: 90%;
 }
 
-.hero-image img{
-    object-fit: contain;
-    width: 100%;
-    height: 100%
-}
-
 .hero-text .rectangle {
     width: 310px;
     height: 80px;
@@ -190,12 +190,6 @@ button {
     height: 30%;
 }
 
-.banner-logo img {
-    object-fit: contain;
-    height: 100%;
-    width: 100%
-}
-
 .wrapper {
     margin: 0 50px;
 }
@@ -224,12 +218,6 @@ button {
     height: 40%;
 }
 
-.new-arrival .card img {
-    object-fit: contain;
-    width: 100%;
-    height: 100%;
-} 
-
 /* payday section */
 .payday {
     display: flex;
@@ -244,12 +232,6 @@ button {
     margin: 53px 56px 0 0;
     width: 95%;
     height: 93%;
-}
-
-.payday-image img{
-    object-fit: contain;
-    width: 100%;
-    height: 100%
 }
 
 .payday-text {
@@ -349,48 +331,35 @@ button {
     height: 30%;
 }
 
-.youngs-favourite .card img{
-    object-fit: contain;
-    width: 100%;
-    height: 100%;
-}
-
 /* download section */
 .download {
-    margin-top: 20px;
-    height: 900px;
+    height: 650px;
     display: flex;
     justify-content: space-between;
 }
 
 .download-image {
-    width: 70%;
-    height: 90%;
-}
-
-.download-image img {
-    object-fit: contain;
-    width: 100%;
-    height: 100%;
+    width: 77%;
+    height: 98%;
 }
 
 .download-text {
-    margin-top: 250px;
-    margin-left: 200px;
-    font: bold;
+    margin: 180px 0 0 100px;
+    width: 40%;
 }
 
 .download-text h2{
     font-weight: 900;
-    font-size: 48px;
-    line-height: 72px;
-    margin-bottom: 40px;
+    font-size: 35px;
+    line-height: 50px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
     text-transform: uppercase;
 }
 
 .download-text p{
-    font-size: 30px;
-    max-width: 60%;
+    font-size: 20px;
+    font-weight: 500;
     color: gray;
     margin-bottom: 40px;
 }
@@ -399,6 +368,11 @@ button {
     display: flex;
     justify-content: left;
     gap: 10px;
+}
+
+.image {
+    width: 35%;
+    height: 20%;
 }
 
 /* community section */
