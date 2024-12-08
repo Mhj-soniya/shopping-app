@@ -665,6 +665,38 @@ button {
         padding: 9px 12px;
     }
 
+    /* community section */
+    .community {
+        height: 300px;
+        margin-top:50px;
+    }
+
+    .community p{
+        font-size: 20px;
+    }
+
+    .community p:nth-of-type(2) {
+        margin: -13px 0 26px 0;
+        font-size: 14px;
+        max-width: 220px;
+        text-align: center;
+    }
+
+    .input-group {
+        width: 350px;
+    }
+
+    .input-group input {
+        margin: 0 10px;
+        font-size: 14px;
+        padding: 15px 0px;
+    }
+
+    .input-group button {
+        transform: translateY(15%);
+        font-size: 19px;
+    }
+
     /* footer section */
     .site-footer {
         padding: 39px 36px;
