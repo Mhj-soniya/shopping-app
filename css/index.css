@@ -521,8 +521,12 @@ button {
 /* Responsive Design */
 @media (max-width: 425px) {
 
-    nav{
-        display: none;
+    .wrapper {
+        margin: 0 20px;
+    }
+
+    h2 {
+        font-size: 27px;
     }
 
     /* hero section */
@@ -586,23 +590,63 @@ button {
         width: 95px;
     }
 
+    /* banner section */
     .banner-group{
-        margin-top: 40px;
-        background-color: #E6C744;
         width: 100%;
-        height: 80px;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        gap: "10px";
+        height: 70px;
+        gap: 10px;
         margin-bottom: 50px;
-        overflow: scroll;
+        overflow-x: auto;           /* Enable horizontal scrolling */
+        scroll-behavior: smooth;
     }
 
+    .banner-logo {
+        width: auto; 
+        height: auto; 
+    }
+
+    .banner-logo img {
+        width: auto;
+        height: auto;
+    }
+
+    /* new arrival section */
+    .new-arrival {
+        flex-wrap: nowrap;          /* No wrapping, keep items in one row */
+        overflow-x: auto;           /* Enable horizontal scrolling */
+        scroll-behavior: smooth;    /* Smooth scrolling for better UX */
+    }
+
+    .new-arrival h4 {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .new-arrival p {
+        font-size: 14px;
+        color: gray;
+        margin-top: -22px;
+    }
+
+    .arrow {
+        top: 53%;
+        width: 8%;
+        height: 27%;
+    }
+
+    .new-arrival .card {
+        flex: 0 0 80%;              /* Each card takes up 80% of the screen width */
+        margin-top: 20px;
+        margin-right: 15px;         /* Add spacing between cards */
+    }
+
+    .new-arrival::-webkit-scrollbar {
+        display: none;              /* Hide scrollbars for a cleaner look */
+    }
 
     /* payday section */
     .payday {
-        margin-top: 100px;
+        margin-top: 35px;
         height: 250px;
         margin-bottom: 50px;
     }
@@ -665,6 +709,26 @@ button {
         padding: 9px 12px;
     }
 
+    /* youngs faavorite section */
+    .youngs-favourite {
+        flex-wrap: nowrap;          /*No wrapping, keep items in one row */
+        overflow-x: auto;           /* Enable horizontal scrolling */
+        scroll-behavior: smooth;    /* Smooth scrolling for better UX */
+    }
+
+    .youngs-favourite .card {
+        flex: 0 0 72%;              /* Each card takes up 80% of the screen width */
+        margin-right: 15px;         /* Add spacing between cards */
+    }
+
+    .youngs-favourite::-webkit-scrollbar {
+        display: none;              /* Hide scrollbars for a cleaner look */
+    }
+
+    .wrapper h1{
+        font-size: 21px;
+    }
+
     /* download section */
 
     .download {
@@ -676,8 +740,8 @@ button {
     }
 
     .download-text {
-        margin: 180px 0 0 10px;
-        width: 100%;
+        margin: 180px 0 0 40px;
+        width: 80%;
     }
 
     .download-text h2 {
@@ -758,3 +822,6 @@ button {
         font-size: 15px;
     }
 }
+
+
+
