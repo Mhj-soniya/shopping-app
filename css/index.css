@@ -621,9 +621,7 @@ button {
     .payday-text h1 {
         margin-left: 0px;
         font-size: 20px;
-        font-weight: 900;
         line-height: 30px;
-        text-transform: uppercase;
     }
 
     #sale {
@@ -634,9 +632,6 @@ button {
         width: 84px;
         height: 30px;
         padding: 10px 10px 0 10px;
-        position: relative;
-        display: inline-block;
-        background-color: white;
     }
 
     .payday-text .rectangle::before {
