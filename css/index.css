@@ -529,6 +529,10 @@ button {
         font-size: 27px;
     }
 
+    nav{
+        display: none;
+    }
+
     /* hero section */
     .hero {
         margin: 0 20px;
@@ -592,22 +596,28 @@ button {
 
     /* banner section */
     .banner-group{
-        width: 100%;
-        height: 70px;
-        gap: 10px;
-        margin-bottom: 50px;
+        margin-top: 30px;
+        height: 62px;
+        margin-bottom: 40px;
+        flex-wrap: nowrap;
         overflow-x: auto;           /* Enable horizontal scrolling */
         scroll-behavior: smooth;
     }
 
     .banner-logo {
         width: auto; 
-        height: auto; 
+        height: auto;
+        margin: 0 10px; 
     }
 
     .banner-logo img {
-        width: auto;
-        height: auto;
+        object-fit: scale-down;
+        width: 78px;
+        height: 32px;
+    }
+
+    .new-arrival::-webkit-scrollbar {
+        display: none;              /* Hide scrollbars for a cleaner look */
     }
 
     /* new arrival section */
