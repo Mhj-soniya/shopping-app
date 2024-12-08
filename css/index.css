@@ -665,6 +665,35 @@ button {
         padding: 9px 12px;
     }
 
+    /* download section */
+
+    .download {
+        height: 440px;
+    }
+
+    .download-image {
+        display: none;
+    }
+
+    .download-text {
+        margin: 180px 0 0 10px;
+        width: 100%;
+    }
+
+    .download-text h2 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .download-text p {
+        font-size: 14px;
+    }
+
+    .image {
+        width: 41%;
+        height: 20%;
+    }
+
     /* community section */
     .community {
         height: 300px;
