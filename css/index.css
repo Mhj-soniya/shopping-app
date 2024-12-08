@@ -714,6 +714,8 @@ button {
         flex-wrap: nowrap;          /*No wrapping, keep items in one row */
         overflow-x: auto;           /* Enable horizontal scrolling */
         scroll-behavior: smooth;    /* Smooth scrolling for better UX */
+        margin-left: 0px;
+        margin-top: 0px;
     }
 
     .youngs-favourite .card {
@@ -727,12 +729,25 @@ button {
 
     .wrapper h1{
         font-size: 21px;
+        margin-left: 0px;
+    }
+
+    .youngs-favourite h4 {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .youngs-favourite p {
+        font-size: 14px;
+        font-weight: 500;
+        color: gray;
+        margin-top: -22px;
     }
 
     /* download section */
 
     .download {
-        height: 440px;
+        height: 330px;
     }
 
     .download-image {
@@ -740,7 +755,7 @@ button {
     }
 
     .download-text {
-        margin: 180px 0 0 40px;
+        margin: 60px 0 0 40px;
         width: 80%;
     }
 
