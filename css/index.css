@@ -600,4 +600,73 @@ button {
     }
 
 
+    /* payday section */
+    .payday {
+        margin-top: 100px;
+        height: 250px;
+        margin-bottom: 50px;
+    }
+
+    .payday-image {
+        margin: 17px 14px 0 0;
+        width: 95%;
+        height: 95%;
+    }
+
+    .payday-text {
+        margin-top: 0px;
+        width: 90%;
+    }
+
+    .payday-text h1 {
+        margin-left: 0px;
+        font-size: 20px;
+        font-weight: 900;
+        line-height: 30px;
+        text-transform: uppercase;
+    }
+
+    #sale {
+        margin-left: 10px;
+    }
+
+    .payday-text .rectangle {
+        width: 84px;
+        height: 30px;
+        padding: 10px 10px 0 10px;
+        position: relative;
+        display: inline-block;
+        background-color: white;
+    }
+
+    .payday-text .rectangle::before {
+        bottom: 34px;
+        height: 10px;
+    }
+
+    .payday-text .rectangle::after {
+        bottom: -2px;
+        height: 5px;
+    }
+
+    .payday-text p{
+        font-size: 10px;
+        font-weight: 500;
+        max-width: 500px;
+        margin: -7px 0px 13px 8px;
+    }
+
+    .payday-text p:nth-of-type(2) {
+        margin: 0px 0px 0px 8px;
+    }
+
+    .payday-text p:nth-of-type(3) {
+        margin: 0px 0px 12px 8px;
+    }
+
+    .payday-text button {
+        margin: 0 0 0 10px;
+        font-size: 11px;
+        padding: 9px 12px;
+    }
 }
