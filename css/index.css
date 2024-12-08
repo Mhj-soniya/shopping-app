@@ -456,8 +456,8 @@ button {
     display: flex;
     justify-content: space-between;
     /* flex-wrap: wrap; */
-    padding: 100px;
-    gap: 40px; 
+    padding: 50px 100px;
+    gap: 30px; 
 }
 
 .footer-branding {
@@ -467,27 +467,23 @@ button {
 }
 
 .footer-branding h2 {
-    font-size: 80px;
+    font-size: 30px;
     margin-bottom: 10px;
     text-transform: uppercase;
 }
 
 .footer-branding p {
-    font-size: 30px;
+    font-size: 15px;
     margin-bottom: 20px;
-    max-width: 500px;
+    max-width: 300px;
     color: #6A6A69;
 }
 
 .social-media {
     display: flex;
-    /* justify-content: center; */
     gap: 15px;
-}
-
-.social-media a img {
-    width: 50px;
-    height: 50px;
+    width: 30% ;
+    height: 18% ;
 }
 
 .footer-links {
@@ -513,8 +509,8 @@ button {
 
 .link-group a {
     text-decoration: none;
-    font-size: 25px;
-    line-height: 1.5;
+    font-size: 17px;
+    line-height: 2.2;
     color: #6A6A69;
 }
 
