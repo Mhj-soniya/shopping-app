@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    padding: 20px 50px;
+    padding: 30px 100px;
 }
 
 h1 {
@@ -137,15 +137,15 @@ button {
 /* hero section */
 .hero {
     background-color: #F3F6F3;
-    margin: 0 50px;
-    height: 690px;
+    margin: 0 100px;
+    height: 675px;
     border-radius: 59px;
     display: flex;
     justify-content: space-between;
 }
 
 .hero-text {
-    margin: 20px 0 0 27px;
+    margin: 20px 0 0 0;
     width: 71%;
 }
 
@@ -158,10 +158,12 @@ button {
 }
 
 .hero-text p {
-    font-size: 24px;
+    font-size: 26px;
     font-weight: 400;
-    margin-top: 40px;
+    margin-top: 30px;
     margin-left: 70px;
+    line-height: 48px;
+    letter-spacing: -1px;
 }
 
 .hero-text .move-left{
@@ -169,10 +171,10 @@ button {
 }
 
 .hero-text button {
-    font-size: 24px;
+    font-size: 27px;
     font-weight: 500;
-    padding: 10px 30px;
-    margin-top: 20px;
+    padding: 16px 40px;
+    margin-top: 5px;
     margin-left: 70px;
 }
 
@@ -229,7 +231,7 @@ button {
     height: 170px;
     display: flex;
     align-items: center;
-    margin-bottom: 70px;
+    margin-bottom: 60px;
 }
 
 .banner-logo{
@@ -270,7 +272,7 @@ button {
 }
 
 .new-arrival .card {
-    margin-top: 50px;
+    margin-top: 40px;
     width: 31%;
     height: 40%;
 }
@@ -281,7 +283,7 @@ button {
     justify-content: space-between;
     margin-top: 120px;
     background-color: #E6C744;
-    height: 730px;
+    height: 770px;
     margin-bottom: 50px;
 }
 
@@ -587,10 +589,32 @@ button {
 }
 
 /* Responsive Design */
+
+@media (max-width: 1440px) {
+    /* hero section  */
+   .hero {
+       height: 657px;
+   }
+
+   .hero-text h1 {
+       font-size: 65px;
+       line-height: 67px;
+   }
+
+   .hero-text p {
+       font-size: 24px;
+   }
+
+   .hero-text button {
+       font-size: 25px;
+       padding: 16px 40px;
+   }
+}
+
 @media (max-width: 1024px){
 
     header {
-        padding: 10px 50px;
+        padding: 20px 100px;
     }
     
     .logo img {
@@ -613,43 +637,46 @@ button {
     /*hero section*/
     
     .hero {
-        height: 507px;
+        height: 425px;
+    }
+
+    .hero-image {
+        margin: 42px 10px 0 0;
+        width: 85%;
+        height: 90%;
     }
     
     .hero-text h1 {
         font-size: 40px;
-        line-height: 30px;
-    }
-    .hero-text {
-        margin: 20px 0 0 27px;
-        width: 69%;
-    }
-    .hero-text h1 {
-        font-size: 40px;
-        line-height: 45px;
+        line-height: 41px;
     }
     .hero-text .rectangle:nth-of-type(1) {
-        width: 164px;
+        width: 148px;
     }
 
     .hero-text .rectangle {
-        width: 200px;
+        width: 172px;
         height: 49px;
-    
-    }
-    .hero-text .rectangle::before {
-        bottom: 59px;
-        height: 15px;
-    }
-    .hero-text .rectangle::after {
-        bottom: -6px;
-        height: 14px;
-    }
-    
-    .hero-text p {
-        font-size: 20px;
     }
 
+    .hero-text .rectangle::before {
+        bottom: 60px;
+        height: 13px;
+    }
+
+    .hero-text .rectangle::after {
+        bottom: -3px;
+        height: 11px;
+    }
+        
+    .hero-text p {
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .hero-text button {
+        font-size: 15px;
+        padding: 11px 22px;
+    }
     /* banner group */
 
     .banner-group {
@@ -731,20 +758,31 @@ button {
     }
 
     /* download section */
+    .download{
+        gap: 20px;
+        margin-top: 40px;
+        height: 600px;
+    }
+
     .download-text {
-        margin: 173px 0 0 82px;
-        width: 40%;
+        margin: 173px 0 0 0px;
+        width: 34%;
     }
     
     .download-text h2 {
-        font-size: 26px;
+        font-size: 25px;
         line-height: 41px;
     }
     
     .download-text p {
-        font-size: 15px;
+        font-size: 14px;
     }
     
+    .download-image {
+        width: 56%;
+        height: 98%;
+    }
+
     .image {
         width: 50%;
     }
@@ -818,7 +856,7 @@ button {
     }
 
     .navbar button {
-        padding: 13px 139px;
+        padding: 8px 299px;
         text-transform: capitalize;
     }
 
@@ -835,7 +873,7 @@ button {
     .hero {
         height: 390px;
         border-radius: 22px;
-        margin-top: 10px;
+        margin: 30px 50px 0 50px;
     }
     
     .hero-image {
@@ -843,15 +881,24 @@ button {
     }
     
     .hero-text {
-        margin: 11px 0 0 0px;
+        margin: 22px 0 0 0px;
         width: 69%;
     }
     
     .hero-text h1 {
-        font-size: 31px;
-        line-height: 33px;
+        margin-left: 15px;
+        margin-bottom: -2px;
+        font-size: 22px;
+        max-width: 100px;
+        line-height: 30px;
     }
-    
+
+    .hero-text button {
+        font-size: 10px;
+        padding: 7px 19px;
+        margin-left: 30px;
+    }
+        
     .hero-text .rectangle:nth-of-type(1) {
         width: 134px;
     }
@@ -873,6 +920,12 @@ button {
 
     .hero-text p{
         display: none;
+    }
+
+    .hero-text button {
+        font-size: 18px;
+        margin-top: 20px;
+        padding: 14px 28px;
     }
 
     /* banner section */
@@ -1059,6 +1112,12 @@ button {
     .navbar {
         width: 88%;
     }    
+
+    .navbar button {
+        padding: 13px 139px;
+        text-transform: capitalize;
+    }
+
 
     /* hero section */
     .hero {
@@ -1444,6 +1503,5 @@ button {
         margin: 1px 0px 5px 8px;
     }    
 }
-
 
 
