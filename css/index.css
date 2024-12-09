@@ -963,6 +963,11 @@ button {
         font-size: 17px;
     }
 
+    /* footer section */
+    .footer-links {
+        gap: 110px;
+    }
+
 }
 
 @media (max-width: 425px) {
