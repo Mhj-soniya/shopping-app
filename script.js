@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     hamburger.addEventListener('click', () => {
         hamburger.classList.toggle('active');
         navbar.classList.toggle('active');
+        document.body.classList.toggle('no-scroll', navbar.classList.contains('active'));
     });
 
     // Close menu when clicking on a link

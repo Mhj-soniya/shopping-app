@@ -146,7 +146,7 @@ button {
 
 .hero-text {
     margin: 20px 0 0 27px;
-    width: 60%;
+    width: 71%;
 }
 
 .hero-text h1{
@@ -754,7 +754,8 @@ button {
         position: fixed;
         top: 0;
         right: 0;
-        width: 88%;
+        width: 93%;
+        /* width: 88%; */
         height: 100%;
         background-color: white;
         flex-direction: column;
@@ -763,6 +764,10 @@ button {
     }
 
     /* style after menu opens */
+    body.no-scroll { /* to prevent scrolling when hamburger is clicked*/
+        overflow: hidden;
+    }
+
     .navbar.active {
         display: flex;
         padding-right: 12px;
@@ -995,6 +1000,10 @@ button {
         display: block;
         right: -91px;
     }
+
+    .navbar {
+        width: 88%;
+    }    
 
     /* hero section */
     .hero {
