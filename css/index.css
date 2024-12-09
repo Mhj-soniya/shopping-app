@@ -742,6 +742,7 @@ button {
 
     header {
         padding: 26px 50px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Horizontal, Vertical, Blur, Spread, and Color */
     }
 
     .hamburger {
@@ -785,6 +786,7 @@ button {
     .hero {
         height: 390px;
         border-radius: 22px;
+        margin-top: 10px;
     }
     
     .hero-image {
