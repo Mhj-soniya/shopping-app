@@ -823,6 +823,32 @@ button {
         display: none;
     }
 
+    /* banner section */
+    .banner-group{
+        margin-top: 30px;
+        height: 85px;
+        margin-bottom: 40px;
+        flex-wrap: nowrap;
+        overflow-x: auto;           /* Enable horizontal scrolling */
+        scroll-behavior: smooth;
+    }
+
+    .banner-logo {
+        width: auto; 
+        height: auto;
+        margin: 0 10px; 
+    }
+
+    .banner-logo img {
+        object-fit: scale-down;
+        width: 116px;
+        height: 34px;
+    }
+
+    .banner::-webkit-scrollbar {
+        display: none;              /* Hide scrollbars for a cleaner look */
+    }
+
     /* new arrival section */
     .new-arrival {
         flex-wrap: nowrap;          /* No wrapping, keep items in one row */
@@ -839,22 +865,6 @@ button {
         font-size: 14px;
         color: #C2C8DA;
         margin-top: -22px;
-    }
-
-    .new-arrival::-webkit-scrollbar {
-        display: none;              /* Hide scrollbars for a cleaner look */
-    }
-
-    /* new arrival section */
-    .new-arrival {
-        flex-wrap: nowrap;          /*No wrapping, keep items in one row */
-        overflow-x: auto;           /* Enable horizontal scrolling */
-        scroll-behavior: smooth;    /* Smooth scrolling for better UX */
-    }
-
-    .new-arrival .card {
-        flex: 0 0 72%;              /* Each card takes up 80% of the screen width */
-        margin-right: 15px;         /* Add spacing between cards */
     }
 
     .new-arrival::-webkit-scrollbar {
@@ -915,7 +925,44 @@ button {
         display: none;              /* Hide scrollbars for a cleaner look */
     }
 
+    /* download section */
 
+    .download{
+        margin-top: 0px;
+    }
+
+    .download-text {
+        margin: 172px 0 0 0px;
+        width: 40%;
+    }
+    
+    .download-text h2 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    
+    .download-image {
+        width: 59%;
+        height: 98%;
+    }
+    
+    .download-text p {
+        font-size: 14px;
+    }
+
+    /* community section */
+    .community{
+        margin-top: 0px;
+    }
+    
+    .community p {
+        font-size: 30px;
+    }
+    
+    .community p:nth-of-type(2) {
+        margin: -4px 0 37px 0;
+        font-size: 17px;
+    }
 
 }
 
@@ -1028,7 +1075,7 @@ button {
         height: 32px;
     }
 
-    .new-arrival::-webkit-scrollbar {
+    .banner::-webkit-scrollbar {
         display: none;              /* Hide scrollbars for a cleaner look */
     }
 
