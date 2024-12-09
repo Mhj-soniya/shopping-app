@@ -1,5 +1,5 @@
 body {
-    max-width: 1920px;
+    /* max-width: 1920px; */
     box-sizing: border-box;
     font-family: 'Poppins';
     margin: 0 auto;
@@ -251,7 +251,7 @@ button {
 
 .new-arrival p {
     font-size: 24px;
-    color: #C2C8DA;
+    color: #7F7F7F;
     margin-top: -40px;
 }
 
@@ -379,7 +379,7 @@ button {
 
 .youngs-favourite p {
     font-size: 20px;
-    color: #C2C8DA;
+    color: #7F7F7F;
     font-weight: 500;
     margin-top: -34px;
 }
@@ -419,7 +419,7 @@ button {
 .download-text p{
     font-size: 20px;
     font-weight: 500;
-    color: #C2C8DA;
+    color: #7F7F7F;
     margin-bottom: 40px;
 }
 
@@ -867,7 +867,7 @@ button {
     }
 
     .new-arrival .card {
-        flex: 0 0 72%;              /* Each card takes up 80% of the screen width */
+        flex: 0 0 72%;              /* Each card takes up 72% of the screen width */
         margin-right: 15px;         /* Add spacing between cards */
     }
 
@@ -1007,7 +1007,7 @@ button {
 
     /* hero section */
     .hero {
-        margin: 10px 20px 0 20px;
+        margin: 16px 16px 0 16px;
         height: 200px;
         border-radius: 20px;
     }
@@ -1106,7 +1106,6 @@ button {
 
     .new-arrival p {
         font-size: 14px;
-        color: #C2C8DA;
         margin-top: -22px;
     }
 
@@ -1117,7 +1116,7 @@ button {
     }
 
     .new-arrival .card {
-        flex: 0 0 80%;              /* Each card takes up 80% of the screen width */
+        flex: 0 0 75%;              /* Each card takes up 80% of the screen width */
         margin-top: 20px;
         margin-right: 15px;         /* Add spacing between cards */
     }
@@ -1222,7 +1221,6 @@ button {
     .youngs-favourite p {
         font-size: 14px;
         font-weight: 500;
-        color: #C2C8DA;
         margin-top: -22px;
     }
 
@@ -1313,10 +1311,28 @@ button {
     
     .footer-links {
         flex: 0;
+        gap: 0px;
     }
 
     .link-group a{
         font-size: 15px;
+    }
+}
+
+@media (max-width: 375px) {
+    .hamburger {
+        right: -62px;
+    }
+}
+
+@media (max-width: 320px){
+
+    .hamburger {
+        right: -35px;
+    }
+    
+    .input-group {
+        width: 292px;
     }
 }
 
