@@ -92,7 +92,7 @@ button {
     cursor: pointer;
     width: 22px;
     height: 20px;
-    right: -91px;
+    right: -209px;
     position: relative;
     z-index: 100;
 }
@@ -736,25 +736,12 @@ button {
     }
 }
 
-@media (max-width: 425px) {
-
-    .wrapper {
-        margin: 0 20px;
-    }
-
-    h2 {
-        font-size: 27px;
-    }
-
-    header {
-        padding: 20px 0 10px 50px;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Horizontal, Vertical, Blur, Spread, and Color */
-    }
+@media (max-width: 768px) {
 
     /* header section */
-    .logo img{
-        width: 150px;
-        margin-left: -15px;
+
+    header {
+        padding: 26px 50px;
     }
 
     .hamburger {
@@ -792,6 +779,170 @@ button {
     .navbar li {
         width: 100%; 
         text-align: left;  
+    }
+
+    /* hero section */
+    .hero {
+        height: 390px;
+    }
+    
+    .hero-image {
+        margin: 52px 0px 0 0;
+    }
+    
+    .hero-text {
+        margin: 11px 0 0 0px;
+        width: 69%;
+    }
+    
+    .hero-text h1 {
+        font-size: 31px;
+        line-height: 33px;
+    }
+    
+    .hero-text .rectangle:nth-of-type(1) {
+        width: 134px;
+    }
+    
+    .hero-text .rectangle {
+        width: 153px;
+        height: 45px;
+    }
+    
+    .hero-text .rectangle::before {
+        bottom: 59px;
+        height: 10px;
+    }
+    
+    .hero-text .rectangle::after {
+        bottom: -3px;
+        height: 13px;
+    }
+
+    .hero-text p{
+        display: none;
+    }
+
+    /* new arrival section */
+    .new-arrival {
+        flex-wrap: nowrap;          /* No wrapping, keep items in one row */
+        overflow-x: auto;           /* Enable horizontal scrolling */
+        scroll-behavior: smooth;    /* Smooth scrolling for better UX */
+    }
+
+    .new-arrival h4 {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .new-arrival p {
+        font-size: 14px;
+        color: #C2C8DA;
+        margin-top: -22px;
+    }
+
+    .new-arrival::-webkit-scrollbar {
+        display: none;              /* Hide scrollbars for a cleaner look */
+    }
+
+    /* new arrival section */
+    .new-arrival {
+        flex-wrap: nowrap;          /*No wrapping, keep items in one row */
+        overflow-x: auto;           /* Enable horizontal scrolling */
+        scroll-behavior: smooth;    /* Smooth scrolling for better UX */
+    }
+
+    .new-arrival .card {
+        flex: 0 0 72%;              /* Each card takes up 80% of the screen width */
+        margin-right: 15px;         /* Add spacing between cards */
+    }
+
+    .new-arrival::-webkit-scrollbar {
+        display: none;              /* Hide scrollbars for a cleaner look */
+    }
+
+    /* payday section */
+    
+    .payday {
+        height: 448px;
+    }
+
+    .payday-text h1 {
+        font-size: 43px;
+        line-height: 51px;
+    }
+
+    .payday-text .rectangle {
+        width: 191px;
+        height: 58px;
+    }
+
+    .payday-text .rectangle::before {
+        bottom: 67px;
+    }
+
+    .payday-text .rectangle::after {
+        bottom: -4px;
+    }
+
+    .payday-text p {
+        margin: 20px 0px 30px 70px;
+        font-size: 14px;
+        max-width: 382px;
+    }
+
+    .payday-text button {
+    margin: -14px 0 0 70px;
+    font-size: 14px;
+    }
+
+
+    /* youngs faavorite section */
+    .youngs-favourite {
+        flex-wrap: nowrap;          /*No wrapping, keep items in one row */
+        overflow-x: auto;           /* Enable horizontal scrolling */
+        scroll-behavior: smooth;    /* Smooth scrolling for better UX */
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .youngs-favourite .card {
+        flex: 0 0 72%;              /* Each card takes up 80% of the screen width */
+        margin-right: 15px;         /* Add spacing between cards */
+    }
+
+    .youngs-favourite::-webkit-scrollbar {
+        display: none;              /* Hide scrollbars for a cleaner look */
+    }
+
+
+
+}
+
+@media (max-width: 425px) {
+
+    .wrapper {
+        margin: 0 20px;
+    }
+
+    h2 {
+        font-size: 27px;
+    }
+
+    header {
+        padding: 20px 0 10px 50px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Horizontal, Vertical, Blur, Spread, and Color */
+    }
+
+    /* header section */
+    .logo img{
+        width: 150px;
+        margin-left: -15px;
+    }
+
+    .hamburger {
+        display: block;
+        right: -91px;
     }
 
     /* hero section */
