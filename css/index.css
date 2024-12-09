@@ -238,7 +238,7 @@ button {
 }
 
 .wrapper {
-    margin: 0 50px;
+    margin: 0 100px;
 }
 
 /* new-arrival section */
@@ -246,23 +246,31 @@ button {
 .new-arrival {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
+    gap: 90px;
+}
+
+.new-arrival h2{
+    font-size: 48px;
+    line-height: 50px;
+    letter-spacing: 3px;
 }
 
 .new-arrival p {
-    font-size: 24px;
+    font-size: 20px;
     color: #7F7F7F;
     margin-top: -40px;
 }
 
 .new-arrival h4 {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 500;
-    margin-top: 25px;
+    margin-top: 7px;
+    line-height: 50px;
+    letter-spacing: -1px;
 }
 
 .new-arrival .card {
-    margin-top: 60px;
+    margin-top: 50px;
     width: 31%;
     height: 40%;
 }
@@ -362,7 +370,7 @@ button {
 .youngs-favourite {
     display: flex;
     justify-content: space-between;
-    gap: 27px;
+    gap: 47px;
     margin-top: 50px;
 }
 
@@ -646,21 +654,31 @@ button {
 
     .banner-group {
         height: 119px;
+        margin-bottom: 50px;
     }
     
     /* new arrival section */
+    .new-arrival {
+        gap: 60px;
+    }
+
     .new-arrival .card {
-        margin-top: 40px;
+        margin-top: 30px;
     }
 
     .new-arrival h4 {
-        font-size: 21px;
-        margin-top: 14px;
+        font-size: 20px;
+        margin-top: 0px;
     }
     
     .new-arrival p {
-        font-size: 15px;
-        margin-top: -30px;
+        font-size: 14px;
+        margin-top: -36px;
+    }
+
+    .wrapper h2 {
+        font-size: 29px;
+        letter-spacing: 2px;
     }
 
     /* payday section */
@@ -670,6 +688,7 @@ button {
 
     .payday {
         height: 574px;
+        margin-top: 70px;
     }
 
     .payday-text h1 {
@@ -689,6 +708,26 @@ button {
         margin: 36px 0px 30px 70px;
         font-size: 18px;
         max-width: 382px;
+    }
+
+    .payday-text button {
+        font-size: 19px;
+        padding: 20px 45px;
+    }
+
+    /* youngs favorite */
+    .wrapper h1 {
+        margin: 80px 0 40px 0;
+        font-size: 28px;
+    }
+
+    .youngs-favourite h4 {
+        font-size: 19px;
+        margin-top: 10px;
+    }
+    .youngs-favourite p {
+        font-size: 16px;
+        margin-top: -27px;
     }
 
     /* download section */
@@ -789,6 +828,10 @@ button {
     }
 
     /* hero section */
+    .wrapper {
+        margin: 0 50px;
+    }
+
     .hero {
         height: 390px;
         border-radius: 22px;
@@ -860,6 +903,7 @@ button {
 
     /* new arrival section */
     .new-arrival {
+        gap: 40px;
         flex-wrap: nowrap;          /*No wrapping, keep items in one row */
         overflow-x: auto;           /* Enable horizontal scrolling */
         scroll-behavior: smooth;    /* Smooth scrolling for better UX */
@@ -868,7 +912,7 @@ button {
     }
 
     .new-arrival .card {
-        flex: 0 0 72%;              /* Each card takes up 72% of the screen width */
+        flex: 0 0 50%;              /* Each card takes up 72% of the screen width */
         margin-right: 15px;         /* Add spacing between cards */
     }
 
@@ -1045,7 +1089,7 @@ button {
     }
     
     .hero-text button {
-        font-size: 12px;
+        font-size: 10px;
         padding: 8px 12px;
         margin-left: 30px;
     }
@@ -1081,7 +1125,7 @@ button {
     .banner-group{
         margin-top: 30px;
         height: 62px;
-        margin-bottom: 40px;
+        margin-bottom: 26px;
         flex-wrap: nowrap;
         overflow-x: auto;           /* Enable horizontal scrolling */
         scroll-behavior: smooth;
@@ -1105,14 +1149,21 @@ button {
 
     /* new arrival section */
     .new-arrival {
+        gap: 24px;
         flex-wrap: nowrap;          /* No wrapping, keep items in one row */
         overflow-x: auto;           /* Enable horizontal scrolling */
         scroll-behavior: smooth;    /* Smooth scrolling for better UX */
     }
 
+    .wrapper h2 {
+        font-size: 24px;
+        letter-spacing: 2px;
+    }
+
     .new-arrival h4 {
-        font-size: 20px;
-        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 12px;
     }
 
     .new-arrival p {
@@ -1128,8 +1179,8 @@ button {
 
     .new-arrival .card {
         flex: 0 0 75%;              /* Each card takes up 80% of the screen width */
-        margin-top: 20px;
-        margin-right: 15px;         /* Add spacing between cards */
+        margin-top: 2px;
+        margin-right: 0px;         /* Add spacing between cards */
     }
 
     .new-arrival::-webkit-scrollbar {
@@ -1209,11 +1260,12 @@ button {
         scroll-behavior: smooth;    /* Smooth scrolling for better UX */
         margin-left: 0px;
         margin-top: 0px;
+        gap: 24px;
     }
 
     .youngs-favourite .card {
-        flex: 0 0 72%;              /* Each card takes up 80% of the screen width */
-        margin-right: 15px;         /* Add spacing between cards */
+        flex: 0 0 85%;              /* Each card takes up 85% of the screen width */
+        margin-right: 0px;        
     }
 
     .youngs-favourite::-webkit-scrollbar {
@@ -1233,7 +1285,7 @@ button {
     .youngs-favourite p {
         font-size: 14px;
         font-weight: 500;
-        margin-top: -22px;
+        margin-top: -20px;
     }
 
     /* download section */
