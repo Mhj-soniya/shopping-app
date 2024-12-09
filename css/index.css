@@ -784,6 +784,7 @@ button {
     /* hero section */
     .hero {
         height: 390px;
+        border-radius: 22px;
     }
     
     .hero-image {
@@ -851,20 +852,16 @@ button {
 
     /* new arrival section */
     .new-arrival {
-        flex-wrap: nowrap;          /* No wrapping, keep items in one row */
+        flex-wrap: nowrap;          /*No wrapping, keep items in one row */
         overflow-x: auto;           /* Enable horizontal scrolling */
         scroll-behavior: smooth;    /* Smooth scrolling for better UX */
+        margin-left: 0px;
+        margin-top: 0px;
     }
 
-    .new-arrival h4 {
-        font-size: 20px;
-        font-weight: 500;
-    }
-
-    .new-arrival p {
-        font-size: 14px;
-        color: #C2C8DA;
-        margin-top: -22px;
+    .new-arrival .card {
+        flex: 0 0 72%;              /* Each card takes up 80% of the screen width */
+        margin-right: 15px;         /* Add spacing between cards */
     }
 
     .new-arrival::-webkit-scrollbar {
@@ -954,7 +951,7 @@ button {
     .community{
         margin-top: 0px;
     }
-    
+
     .community p {
         font-size: 30px;
     }
