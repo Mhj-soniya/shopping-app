@@ -353,7 +353,8 @@ button {
 
 .payday-text button {
     margin: 0 0 0 70px;
-    padding: 15px 30px;
+    font-size: 27px;
+    padding: 26px 51px;
     text-transform: uppercase;
 }
 
@@ -878,7 +879,16 @@ button {
     /* payday section */
     
     .payday {
-        height: 448px;
+        height: 423px;
+    }
+
+    .payday-image {
+        margin: 38px 0px 0 0;
+    }
+
+    .payday-text {
+        margin-top: 25px;
+        margin-right: 50px;
     }
 
     .payday-text h1 {
@@ -906,8 +916,9 @@ button {
     }
 
     .payday-text button {
-    margin: -14px 0 0 70px;
-    font-size: 14px;
+        margin: -14px 0 0 70px;
+        font-size: 14px;
+        padding: 15px 30px;
     }
 
 
@@ -1020,9 +1031,9 @@ button {
     .hero-text h1{
         margin-left: 15px;
         margin-bottom: -2px;
-        font-size: 22px;
+        font-size: 20px;
         max-width: 100px;
-        line-height: 28px;
+        line-height: 24px;
     }
 
     .hero-text .move-left{
@@ -1035,7 +1046,7 @@ button {
     
     .hero-text button {
         font-size: 12px;
-        padding: 11px 15px;
+        padding: 8px 12px;
         margin-left: 30px;
     }
     
@@ -1133,7 +1144,7 @@ button {
     }
 
     .payday-image {
-        margin: 15px 0 0 0;
+        margin: 17px 0 0 -2px;
         width: 95%;
         height: 95%;
     }
@@ -1141,6 +1152,7 @@ button {
     .payday-text {
         margin-top: 0px;
         width: 90%;
+        margin-right: 16px;
     }
 
     .payday-text h1 {
@@ -1186,8 +1198,8 @@ button {
 
     .payday-text button {
         margin: 0 0 0 10px;
-        font-size: 11px;
-        padding: 9px 12px;
+        font-size: 12px;
+        padding: 8px 12px;
     }
 
     /* youngs faavorite section */
@@ -1235,17 +1247,19 @@ button {
     }
 
     .download-text {
-        margin: 60px 0 0 40px;
-        width: 80%;
+        margin: 56px 57px 0px 58px;
+        width: 100%;
     }
 
     .download-text h2 {
-        font-size: 25px;
-        line-height: 35px;
+        font-size: 22px;
+        line-height: 30px;
+        margin-bottom: 12px;
     }
 
     .download-text p {
-        font-size: 14px;
+        font-size: 13px;
+        margin-bottom: 18px;
     }
 
     .image {
@@ -1323,6 +1337,25 @@ button {
     .hamburger {
         right: -62px;
     }
+
+    .payday {
+        height: 219px;
+    }
+
+    .payday-image {
+        margin: 15px 0 0 0px;
+    }
+
+    .payday-text p {
+        font-size: 9px;
+        line-height: 12px;
+        margin: -14px 0px 8px 8px;
+    }
+    .payday-text button {
+        margin: 0 0 0 10px;
+        font-size: 10px;
+        padding: 8px 12px;
+    }
 }
 
 @media (max-width: 320px){
@@ -1330,10 +1363,34 @@ button {
     .hamburger {
         right: -35px;
     }
-    
+
     .input-group {
         width: 292px;
     }
+
+    /* ==== payday section ==== */
+    .payday {
+        margin-top: 35px;
+        height: 190px;
+        margin-bottom: 50px;
+    }
+    .payday p {
+        font-size: 8px;
+    }
+
+    .payday-text h1 {
+        margin-left: 0px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .payday-text button {
+        margin: 0px 0px 0 10px;
+        font-size: 8px;
+        padding: 8px 12px;
+    }
+    .payday-text p:nth-of-type(3) {
+        margin: 1px 0px 5px 8px;
+    }    
 }
 
 
