@@ -62,7 +62,7 @@ button {
     justify-content: center;
     align-items: center;
     list-style: none;
-    gap: 50px;
+    gap: 21px;
 }
 
 .navbar li {
@@ -138,29 +138,29 @@ button {
 .hero {
     background-color: #F3F6F3;
     margin: 0 100px;
-    height: 675px;
+    height: 850px;
     border-radius: 59px;
     display: flex;
     justify-content: space-between;
 }
 
 .hero-text {
-    margin: 20px 0 0 0;
-    width: 71%;
+    margin: 80px 0 0 279px;
+    width: 49%;
 }
 
-.hero-text h1{
-    font-size: 70px;
+.hero-text h1 {
+    font-size: 92px;
     font-weight: 900;
     max-width: 474px;
-    line-height: 75px;
+    line-height: 100px;
     text-transform: uppercase;
 }
 
 .hero-text p {
-    font-size: 26px;
+    font-size: 32px;
     font-weight: 400;
-    margin-top: 30px;
+    margin-top: 40px;
     margin-left: 70px;
     line-height: 48px;
     letter-spacing: -1px;
@@ -171,9 +171,9 @@ button {
 }
 
 .hero-text button {
-    font-size: 27px;
+    font-size: 32px;
     font-weight: 500;
-    padding: 16px 40px;
+    padding: 20px 56px;
     margin-top: 5px;
     margin-left: 70px;
 }
@@ -185,8 +185,8 @@ button {
 }
 
 .hero-text .rectangle {
-    width: 310px;
-    height: 80px;
+    width: 425px;
+    height: 110px;
     padding: 20px 8px 0 15px;
     position: relative;
     display: inline-block;
@@ -197,8 +197,8 @@ button {
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 90px;
-    height: 18px;
+    bottom: 110px;
+    height: 29px;
     background-color: #F3F6F3;
     transform: skewY(-2deg);
 }
@@ -208,14 +208,15 @@ button {
     position: absolute;
     left: 0;
     right: 0;
-    bottom: -6px;
-    height: 14px;
+    bottom: -10px;
+    height: 15px;
     background-color: #F3F6F3;
     transform: skewY(-2deg);
 }
 
+
 .hero-text .rectangle:nth-of-type(1) {
-    width: 275px;
+    width: 397px;
     background-color: white;
 }
 
@@ -590,25 +591,81 @@ button {
 
 /* Responsive Design */
 
+@media (max-width: 1920px) {
+    .hero {
+        height: 675px;
+    }
+    
+    .hero-text {
+        margin: 20px 0 0 0;
+        width: 71%;
+    }
+    
+    .hero-text h1{
+        font-size: 70px;
+        line-height: 75px;
+    }
+    
+    .hero-text .rectangle {
+        width: 310px;
+        height: 80px;
+    }
+    
+    .hero-text .rectangle:nth-of-type(1) {
+        width: 275px;
+    }
+    
+    .hero-text p {
+        font-size: 22px;
+        margin-top: 30px;
+    }
+    
+    .hero-text button {
+        font-size: 27px;
+        padding: 16px 40px;
+    }
+    
+    .hero-text .rectangle::before {
+        bottom: 90px;
+        height: 18px;
+    }
+    
+    
+    .hero-text .rectangle::after {
+        bottom: -6px;
+        height: 14px;
+    }
+}
+
 @media (max-width: 1440px) {
     /* hero section  */
-   .hero {
-       height: 657px;
-   }
+    .hero{
+        height: 640px;
+    }
 
-   .hero-text h1 {
-       font-size: 65px;
-       line-height: 67px;
-   }
+    .hero-text {
+        margin: 40px 0 0 0;
+        width: 58%;
+    }
+    .hero-text h1 {
+        font-size: 58px;
+        line-height: 60px;
+    }
+    
+    .hero-text p {
+        font-size: 20px;
+    }
+    
+    .hero-text button {
+        font-size: 20px;
+        padding: 16px 40px;
+    }
 
-   .hero-text p {
-       font-size: 24px;
-   }
-
-   .hero-text button {
-       font-size: 25px;
-       padding: 16px 40px;
-   }
+    .hero-image {
+        margin: 63px 56px 0 0;
+        width: 85%;
+        height: 90%;
+    }
 }
 
 @media (max-width: 1024px){
@@ -820,7 +877,7 @@ button {
 
     header {
         padding: 26px 50px;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Horizontal, Vertical, Blur, Spread, and Color */
+        box-shadow:0 0px 10px rgba(0, 0, 0, 0.1); /* Horizontal, Vertical, Blur, Spread, and Color */
     }
 
     .hamburger {
@@ -871,7 +928,7 @@ button {
     }
 
     .hero {
-        height: 390px;
+        height: 373px;
         border-radius: 22px;
         margin: 30px 50px 0 50px;
     }
@@ -881,21 +938,21 @@ button {
     }
     
     .hero-text {
-        margin: 22px 0 0 0px;
+        margin: 22px 0 0 43px;
         width: 69%;
     }
     
     .hero-text h1 {
         margin-left: 15px;
-        margin-bottom: -2px;
-        font-size: 22px;
+        margin-bottom: 6px;
+        font-size: 32px;
         max-width: 100px;
         line-height: 30px;
     }
 
     .hero-text button {
         font-size: 10px;
-        padding: 7px 19px;
+        padding: 10px 18px;
         margin-left: 30px;
     }
         
@@ -990,12 +1047,12 @@ button {
 
     .payday-text h1 {
         font-size: 43px;
-        line-height: 51px;
+        line-height: 40px;
     }
 
     .payday-text .rectangle {
         width: 191px;
-        height: 58px;
+        height: 52px;
     }
 
     .payday-text .rectangle::before {
@@ -1095,7 +1152,6 @@ button {
 
     header {
         padding: 20px 0 10px 50px;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Horizontal, Vertical, Blur, Spread, and Color */
     }
 
     /* header section */
@@ -1268,7 +1324,7 @@ button {
     .payday-text h1 {
         margin-left: 0px;
         font-size: 20px;
-        line-height: 30px;
+        line-height: 21px;
     }
 
     #sale {
@@ -1277,7 +1333,7 @@ button {
 
     .payday-text .rectangle {
         width: 84px;
-        height: 30px;
+        height: 26px;
         padding: 10px 10px 0 10px;
     }
 
@@ -1350,7 +1406,7 @@ button {
     /* download section */
 
     .download {
-        height: 330px;
+        height: 270px;
     }
 
     .download-image {
@@ -1449,6 +1505,39 @@ button {
         right: -62px;
     }
 
+    /* hamburger active navbar */
+    .navbar button {
+        font-size: 13px;
+    }
+
+    /* hero section */
+    .hero-text {
+        margin: 0px 0 0 0;
+        width: 60%;
+    }
+    
+    .hero-text .rectangle:nth-of-type(1) {
+        width: 75px;
+    }
+
+    .hero-text .rectangle:nth-of-type(3) {
+        width: 81px;
+    }
+    
+    .hero-text .rectangle {
+        height: 26px;
+    }
+    
+    .hero-text .rectangle::before {
+        bottom: 25px;
+        height: 5px;
+    }
+    
+    .hero-text .rectangle::after {
+        bottom: -2px;
+        height: 5px;
+    }    
+
     .payday {
         height: 219px;
     }
@@ -1460,13 +1549,112 @@ button {
     .payday-text p {
         font-size: 9px;
         line-height: 12px;
-        margin: -14px 0px 8px 8px;
+        margin: -10px 0px 8px 8px;
     }
+
+    .payday-text h1 {
+        margin-left: 0px;
+        font-size: 20px;
+        line-height: 20px;
+    }
+
     .payday-text button {
         margin: 0 0 0 10px;
         font-size: 10px;
         padding: 8px 12px;
     }
+
+    .payday-text .rectangle {
+        height: 25px;
+    }
+
+    .payday-text .rectangle::before {
+        bottom: 29px;
+        height: 10px;
+    }
+
+    /* download section */
+    .download {
+        height: 260px;
+    }
+    
+    .download-text {
+        margin: 53px 49px 0px 58px;
+        width: 100%;
+    }
+    
+    .download-text h2 {
+        font-size: 19px;
+        line-height: 28px;
+        margin-bottom: 12px;
+    }
+    
+    .download-text p {
+        font-size: 12px;
+        margin-bottom: 24px;
+        margin-top: 12px;
+    }
+    
+    .img-group {
+        gap: 10px;
+    }
+
+    .image{
+        width: 48%;
+    }
+
+    /* community section */
+    
+    
+    /* download section */
+    .download {
+        height: 235px;
+    }
+    
+    .download-text {
+        margin: 23px 15px 0px 14px;
+    }
+
+    .download-text h2 {
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 12px;
+    }
+
+    .download-text p {
+        font-size: 12px;
+        margin-bottom: 24px;
+        margin-top: 12px;
+    }
+
+    .community {
+        height: 250px;
+        margin-top: 40px;
+    }
+
+    .community p:nth-of-type(1) {
+        margin-top: -2px;
+    }
+
+    .community p:nth-of-type(2) {
+        margin: -3px 0 21px 0;
+        font-size: 12px;
+    }
+
+    .input-group {
+        width: 310px;
+    }
+
+    .input-group input {
+        margin: 0 10px;
+        font-size: 13px;
+        padding: 11px 7px;
+    }
+
+    .input-group button {
+        font-size: 14px;
+    }
+
 }
 
 @media (max-width: 320px){
@@ -1478,7 +1666,21 @@ button {
     .input-group {
         width: 292px;
     }
+    
+    .navbar button {
+        padding: 9px 114px;
+    }
 
+    /* hero section */
+    .hero {
+        height: 172px;
+    }
+
+    .hero-text button {
+        margin-top: 10px;
+        padding: 5px 12px;
+    }
+    
     /* ==== payday section ==== */
     .payday {
         margin-top: 35px;
@@ -1502,6 +1704,16 @@ button {
     .payday-text p:nth-of-type(3) {
         margin: 1px 0px 5px 8px;
     }    
+
+    .community p{
+        font-size: 17px;
+    }
+
+    /* footer section */
+    .social-media {
+        width: 58%;
+        height: 16%;
+    }
 }
 
 
