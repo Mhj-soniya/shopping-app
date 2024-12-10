@@ -703,6 +703,10 @@ button {
         height: 90%;
     }
     
+    .hero-text {
+        margin: 11px 0 0 0;
+    }
+
     .hero-text h1 {
         font-size: 40px;
         line-height: 41px;
